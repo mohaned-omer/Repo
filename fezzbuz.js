@@ -5,6 +5,7 @@ const Fezz = function (start,end){
         if (theArray.length === 0){
             return theCounter
         }
+        return ''
     }
     while(i<end){
         
