@@ -12,7 +12,7 @@ const Fezz = function (start,end){
         if(i%5===0){arr.push('buzz')} ;
         if(i%7===0){arr.push('foo')} ;
         if(i%11===0){arr.push('bo')} ;
-        console.log( say(arr,i) , arr)
+        console.log( say(arr,i) , arr.join(''))
         i++;
         arr = [] ;
     }
